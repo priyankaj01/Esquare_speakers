@@ -426,6 +426,7 @@ img.pull-left {
  * ------------------------------------------------------------------- */
 .bgrid {
 	padding: 0 20px;
+	/* grid-template-columns: auto; */
 }
 @media only screen and (max-width: 1024px) {
 	.bgrid {
@@ -2667,10 +2668,17 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 	border-radius: 15px 50px;
 }
 #heading_speakers {
-	color:teal;
+	color:rgb(0, 180, 180);
 	text-align: center;
 	letter-spacing: 1px;
 	
+}
+#panel-heading {
+	color: blue;
+	text-align:center;
+}
+#panel1 {
+	align-content: center;
 }
 #speakers {
 	background-color:black;

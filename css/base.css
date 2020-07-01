@@ -601,7 +601,7 @@ textarea {
 		margin-left : 0;
 	}
   .block-s-1-6 .bgrid {
-    width: 16.66667%;
+    width:50.66667%;
   }
 
   .block-s-1-4 .bgrid {
@@ -801,18 +801,20 @@ textarea {
   margin-right: auto;
   text-align: center;
 }
-.profile-img {
+/* .profile-img {
   width:115%;
   height:auto;
   border-radius : 15px 50px;
-}
+  width: 200px;
+  height: 200px;
+} */
 .profile-card .a{
             position:relative;
             overflow: hidden;
             margin-bottom:10px;
         }
         .profile-card .profile-img img{
-            width:115%;
+            width:400px;;
             height:auto;
             border-radius : 15px 50px;
         }
