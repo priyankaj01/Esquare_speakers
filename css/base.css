@@ -801,7 +801,12 @@ textarea {
   margin-right: auto;
   text-align: center;
 }
-.profile-card{
+.profile-img {
+  width:115%;
+  height:auto;
+  border-radius : 15px 50px;
+}
+.profile-card .a{
             position:relative;
             overflow: hidden;
             margin-bottom:10px;
