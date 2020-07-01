@@ -2666,10 +2666,16 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 	height: 250px;
 	border-radius: 15px 50px;
 }
-
+#heading_speakers {
+	color:teal;
+	text-align: center;
+	letter-spacing: 1px;
+	
+}
 #speakers {
 	background-color: #000;
 	background-size: contain;
+	padding: 50px 0px 50px 0px;
 }
 .speaker-name {
     text-align: center;
@@ -2677,8 +2683,11 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 }
 
 .speaker-name h2 {
+	color: grey;
+    font-size: 1.5rem;
+	text-transform: uppercase;
     margin: 0 0 0 0;
-    color: #e4b101;
+	letter-spacing: 0.2rem;
 }
 
 .speaker-name h3 {
