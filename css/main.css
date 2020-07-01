@@ -2667,13 +2667,13 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 	border-radius: 15px 50px;
 }
 #heading_speakers {
-	color:teal;
+	color:rgb(0, 180, 180);
 	text-align: center;
 	letter-spacing: 1px;
-	
+	font-size:2.5em;
 }
 #speakers {
-	background-color:black;
+	background-image:url("../images/talks.jpg");
 	background-size: contain;
 	padding: 50px 0px 50px 0px;
 }
@@ -2683,8 +2683,8 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 }
 
 .speaker-name h2 {
-	color: grey;
-    font-size: 1.5rem;
+	color: rgb(143, 200, 238);
+    font-size: 1.6rem;
 	text-transform: uppercase;
     margin: 0 0 0 0;
 	letter-spacing: 0.2rem;
@@ -2697,7 +2697,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 
 #all-speakers {
     background-image: url("../images/services.jpg");
-    background-repeat: repeat;
+    background-repeat: cover;
     padding: 120px 0;
 }
 
