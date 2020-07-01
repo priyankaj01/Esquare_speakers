@@ -2673,7 +2673,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 	
 }
 #speakers {
-	background-color: #000;
+	background-color:black;
 	background-size: contain;
 	padding: 50px 0px 50px 0px;
 }
