@@ -70,6 +70,7 @@ perspective effects (not including the modals and the overlay).
 .md-content {
    max-height:500px;
     max-width: fit-content;
+    overflow-y: scroll;
     width: auto ;
     color: black;
     background: rgba(238, 238, 238, 0.95);
